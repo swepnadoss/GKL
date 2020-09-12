@@ -8,6 +8,7 @@
 echo "Installing dependencies"
 install_dep
 source scl_source enable devtoolset-7
+#Adding test comment
 # export JAVA_PROXY="-Dhttp.proxyHost=proxy.example.com -Dhttp.proxyPort=1234 -Dhttps.proxyHost=proxy.example.com -Dhttps.proxyPort=1234"
 # gcc --version
 ./gradlew $JAVA_PROXY clean
